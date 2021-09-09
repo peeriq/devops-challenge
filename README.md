@@ -1,25 +1,21 @@
-# The real DevOps challenge
-
-![Intelygenz](./assets/intelygenz.logo.jpeg)
+# PeerIQ DevOps Challenge
 
 This challenge was designed to look for your devops skills. This repository contains a simple python application. But it is not completed at all.
 The app needs a mongodb database to be able to run it.
 
 ## The app
 
-![Flask](./assets/flask.logo.png)
-
 This is a python *(flask)* application. To download it:
 
 ```bash
-$ git clone git@github.com:intelygenz/the-real-devops-challenge.git
-Cloning into 'the-real-devops-challenge'...
+$ git clone https://github.com/peeriq/devops-challenge.git
+Cloning into 'devops-challenge'...
 remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
 remote: Compressing objects: 100% (2/2), done.
 remote: Total 3 (delta 0), reused 0 (delta 0)
 Receiving objects: 100% (3/3), done.
-$ cd ./the-real-devops-challenge
+$ cd ./devops-challenge
 ```
 
 ### Run the tests
@@ -30,7 +26,7 @@ This python app contains some tests. To run it in your own host:
 
 ```bash
 $ pwd
-the-real-devops-challenge
+devops-challenge
 $ pip install tox
 Collecting tox
   Using cached https://files.pythonhosted.org/packages/d0/43/2160a300e0b77a929a980f36ac7427dcef8f4ddac7a8c21e5a8baedad828/tox-3.5.3-py2.py3-none-any.whl
@@ -61,7 +57,7 @@ If you prefer, you can run the tests in a container:
 
 ```bash
 $ pwd
-the-real-devops-challenge
+devops-challenge
 $ docker run -it -v $(pwd):/tmp/app -w /tmp/app --rm painless/tox /bin/bash tox
 ___________________________________________________________________________________________ summary ___________________________________________________________________________________________
   py27: commands succeeded
