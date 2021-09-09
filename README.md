@@ -9,12 +9,6 @@ This is a python *(flask)* application. To download it:
 
 ```bash
 $ git clone https://github.com/peeriq/devops-challenge.git
-Cloning into 'devops-challenge'...
-remote: Enumerating objects: 3, done.
-remote: Counting objects: 100% (3/3), done.
-remote: Compressing objects: 100% (2/2), done.
-remote: Total 3 (delta 0), reused 0 (delta 0)
-Receiving objects: 100% (3/3), done.
 $ cd ./devops-challenge
 ```
 
